@@ -23,10 +23,10 @@ By using this program, you acknowledge that any and all thoughts, experiences, o
 agree = 0
 while(agree == 0):
 	startscrn = input("> ")
-	if startscrn == "Agree":
+	if startscrn.lower() == "agree":
 		print("Thank You!")
 		agree = 1
-	elif startscrn == "Disagree": 
+	elif startscrn.lower() == "disagree": 
 		print("You must agree to the terms and conditions to use this software.")
 	else:
 		print("I do not recognize that command.")
