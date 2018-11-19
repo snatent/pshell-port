@@ -1,3 +1,11 @@
+from colorama import init
+from colorama import Fore, Back, Style
+
+init()
+
+# COLORAMA USAGE
+# print(Fore.CYAN + 'some blue text')
+# print(Style.RESET_ALL)
 #START SCREEN
 print("Luxury Universal [e]Xperience Operating System (version 8.1.1)\n\
 (c) 1998 Luxury Universal [e]Xperience Incorporated. All rights reserved.\n\
